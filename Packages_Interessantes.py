@@ -5,32 +5,23 @@ Instaláveis via pip, exemplo:
 
 ----------------------------
 EXCEL:
-
 openpyxl
-
 ----------------------------
 Atualizações PIP:
-
 pipupgrade
-
 ----------------------------
 SQL & EXCELL:
-
 SQLAlchemy
 sqlexceller
 psycopg2
-
 ----------------------------
 PDF:
-
 PyPDF2 
 ----------------------------
 Automations:
-
 pywinauto
 ----------------------------
 Lidar com dados:
-  
-panda
+pandas
 
 
