@@ -1,4 +1,7 @@
-Packages interessantes de Python:
+Packages interessantes para Python,
+Instaláveis via pip, exemplo:
+  
+  pip install openpyxl
 
 ----------------------------
 EXCEL:
