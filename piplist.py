@@ -1,4 +1,4 @@
-Lista todos os packages instalados com inclusive com versão:
+Lista todos os packages instalados e sua versão:
 
 pip list
 
