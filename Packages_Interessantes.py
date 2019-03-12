@@ -18,6 +18,7 @@ SQL & EXCELL:
 
 SQLAlchemy
 sqlexceller
+psycopg2
 
 ----------------------------
 PDF:
@@ -28,6 +29,8 @@ Automations:
 
 pywinauto
 ----------------------------
-
+Lidar com dados:
+  
+panda
 
 
