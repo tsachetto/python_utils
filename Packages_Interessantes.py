@@ -4,7 +4,13 @@ Instaláveis via pip, exemplo:
   pip install openpyxl
   
  Vide: https://pypi.org/
-
+    
+    
+#-----------------------
+Py to EXE Compilador:
+pipinstaller
+Go to your program’s directory and run:
+pyinstaller yourprogram.py
 #-----------------------
 EXCEL:
 openpyxl
@@ -28,7 +34,7 @@ pandas
 #-----------------------
 WEB SCRAPING:
 beautifulsoup
-#-----------------------
+
 #-----------------------
 #-----------------------
 #-----------------------
