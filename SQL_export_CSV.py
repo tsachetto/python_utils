@@ -1,6 +1,8 @@
 import psycopg2
 import sys
 
+#Autoral by tsachetto
+
 # Definição da conexão com a DB onde informo o nome, o usuário, a senha e o IP.
 conn = psycopg2.connect("dbname=? user=? password=? host=?")
 
@@ -8,8 +10,8 @@ conn = psycopg2.connect("dbname=? user=? password=? host=?")
 cur = conn.cursor()
 
 # Query de consulta da tabela empresa. columns=None
-
-f = open("C:\\Py\\Db\\log.txt", "w")
+#DEFINA O DIRETORIO E O ARQUIVO DE LOG
+f = open("C:\\Db\\log.txt", "w")
 cur.copy_to(f, 'wphd.empresa', sep=';', null='')
 f.close()
 
