@@ -1,4 +1,4 @@
-#soma os algarismos (dígitos) de um número e os escreve em um txt caso preencham uma condição:
+#soma os algarismos (dígitos) internos de um número e os escreve em um txt caso preencham uma condição:
 #código autoral by tsachetto ;)
 
 import itertools as its
