@@ -4,41 +4,31 @@ Instaláveis via pip, exemplo:
   pip install openpyxl
   
  Vide: https://pypi.org/
-    
-    
-#-----------------------
-Py to EXE Compilador:
+        
+#Py to EXE Compilador:
 pipinstaller
 Go to your program’s directory and run:
 pyinstaller yourprogram.py
-#-----------------------
-EXCEL:
+
+#EXCEL:
 openpyxl
-#-----------------------
-Atualizações PIP:
+
+#Atualizações PIP:
 pipupgrade
-#-----------------------
-SQL & EXCELL:
+
+#SQL & EXCELL:
 SQLAlchemy
 sqlexceller
 psycopg2
-#-----------------------
-PDF:
+
+#PDF:
 PyPDF2 
-#-----------------------
-Automations:
+
+#Automations:
 pywinauto
-#-----------------------
-Lidar com dados:
+
+#Lidar com dados:
 pandas
-#-----------------------
-WEB SCRAPING:
+
+#WEB SCRAPING:
 beautifulsoup
-
-#-----------------------
-#-----------------------
-#-----------------------
-#-----------------------
-#-----------------------
-
-
