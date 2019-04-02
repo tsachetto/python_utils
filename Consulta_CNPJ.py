@@ -5,15 +5,12 @@ import json
 import sys
 import urllib.request
 
-
 def usage():
     print('Este script busca informações online sobre números de CNPJ')
     print('Modo de uso: {0} "CNPJ[1]" "CNPJ[2]" ... "CNPJ[N]"'.format(sys.argv[0]))
     sys.exit(1)
 
-
 def valida_cnpj(cnpj):
-    'Recebe um CNPJ e retorna True se formato válido ou False se inválido'
 
     cnpj = parse_input(cnpj)
     if len(cnpj) != 14 or not cnpj.isnumeric():
@@ -41,9 +38,7 @@ def valida_cnpj(cnpj):
 
     return verificadores == str(digito_um) + str(digito_dois)
 
-
 def parse_input(i):
-    'Retira caracteres de separação do CNPJ'
 
     i = str(i)
     i = i.replace('.', '')
@@ -96,7 +91,6 @@ def busca_cnpj(cnpj):
             print('Email: {0}\n\n'.format(dic['email']))
         except KeyError:
             pass
-
 
 if __name__ == '__main__':
     if len(sys.argv) == 1 or sys.argv[1] in {'-h', '--help'}:
