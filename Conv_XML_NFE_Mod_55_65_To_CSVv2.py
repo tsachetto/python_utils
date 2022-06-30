@@ -8,7 +8,7 @@ import re
 #CONVERSOR DE XML NFE OU NFCE PARA TEXTO / Convert Brazilian NF-E XML (Model 55 or 65) to CSV
 #VERSÃO 7.0b de 08/2021 - Necessary: Python 3.0+
 #Como usar / How to use:
-#Copie todo esse texto para um txt em branco e salve em uma pasta em branco ex: conversor.py / Copy this whole texto to a new txt file and save it into a new folder, ex.: conversor.py
+#Copie todo este texto para um txt em branco e salve em uma pasta em branco ex: conversor.py / Copy this whole text into a new txt file and save it into a new folder, ex.: conversor.py
 #Coloque alguns arquivos XML de NF mod 65 ou 55 na pasta e execute o arquivo conversor.py / Put some NFE XML into the folder and run the conversor.py file.
 #Pronto, ele irá gerar um arquivo CSV contendo os dados dos XMLs. / Done! It will born a new CSV file with the XML content on it!
 #Obrigado / thanks!
