@@ -1,0 +1,30 @@
+import ftplib
+
+#Created by ChatGPT 12/03/2023
+#Script que envia arquivos locais para um servidor web 
+
+# Define as informações de conexão FTP
+ftp_host = 'ftp.youtwebsite.com.yourcountry'
+ftp_port = 21
+ftp_user = 'login@host.com.br'
+ftp_pass = 'x1x2x3x4x5x6x7x8x9x%'
+
+# Define o nome do arquivo a ser enviado
+file_name = 'test_file_to_send.txt'
+
+# Define o caminho do diretório no servidor FTP para onde o arquivo será enviado
+ftp_dir = '/diretorio_de_recepcao_no_servidor_web/'
+
+# Cria uma instância do objeto FTP
+ftp = ftplib.FTP()
+
+# Conecta-se ao servidor FTP
+ftp.connect(ftp_host, ftp_port)
+ftp.login(ftp_user, ftp_pass)
+
+# Envia o arquivo para a pasta /call/ no servidor FTP
+with open(file_name, 'rb') as file:
+    ftp.storbinary('STOR ' + ftp_dir + file_name, file)
+
+# Encerra a conexão FTP
+ftp.quit()
